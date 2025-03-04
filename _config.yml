@@ -323,3 +323,6 @@ defaults:
       comments: # true
       share: true
       related: true
+
+home:
+  layout: grid
