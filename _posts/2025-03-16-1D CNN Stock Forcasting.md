@@ -84,7 +84,7 @@ last_modified_at: 2025-03-16
 - 거래량을 종목별로 볼 수 있습니다.
 
 ## Data 4) 장마감 데이터
-![image](/assets/images/1D CNN stock forcasting images/foreigner_result_b.png){: width="60%" height="60%"}
+![image](/assets/images/1D CNN stock forcasting images/foreigner_result_b.png){: width="80%" height="80%"}
 - 장마감(18:00) 후 나오는 데이터로, "금융투자", "보험", "투신", "사모", "은행", "개인", "외국인" 등 투자자 종류별로 총합 채결 수량(혹은 금액)을 나타냅니다. 
 - 장마감 후 데이터는 세 차례에 걸쳐 올라오는데 가장 마지막에 올라오는 데이터가 확실한 데이터임으로 가장 마지막에 나오는 데이터만을 활용합니다.
 
@@ -133,7 +133,7 @@ DS팀은 현재 프로젝트의 목표를 **외국인 수급을 예측하는 Reg
     - 결론적으로, 시계열 데이터에서 중요한 "시간" 정보와 대부분의 컬럼과 의존성(dependency)을 지닌 "거래량", "체결가격"만 사용하기로 결정했습니다.
 
 
-![image](/assets/images/1D CNN stock forcasting images/relation.png){: width="80%" height="80%"}
+![image](/assets/images/1D CNN stock forcasting images/relation.png){: width="70%" height="70%"}
 
 체결가격을 뽑은 이유는 그래프에서도 보실 수 있 듯이 **체결가격에 변동이 생기면 거래량에도 높은 상관성으로 변화**가 생기는 것을 알 수 있습니다. 이에 대한 가설은 두 가지를 세워 볼 수 있습니다.
 - 첫번째, 프로그램 매매가 특정 가격 범위에 들어오면 자동으로 체결 하는 방식을 사용함으로 주가 변동에 반응한 **프로그램 매매의 거래일 가능성**이 있습니다. 
@@ -307,7 +307,7 @@ def scaler(df):
     return df
 ```
 
-![image](/assets/images/1D CNN stock forcasting images/min_max.png){: width="80%" height="80%"}
+![image](/assets/images/1D CNN stock forcasting images/min_max.png){: width="50%" height="50%"}
 
 
 ```python
