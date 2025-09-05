@@ -55,7 +55,7 @@ test 데이터에는 더미로 학습 데이터에 있는 tomogram 데이터가 
 ### Evaluation
 ![image](/assets/images/BYU images/metric.png){: width="100%" height="100%"}
 
-예측한 모터의 좌표가 정답 좌표와 1000 angstroms 내에 있으면 TP, 밖에 있으면 FN으로 개수를 셉니다. 그리고 $F_\beta$-score로 평가합니다. 
+예측한 모터의 좌표가 정답 좌표와 1000 angstroms 내에 있으면 TP, 밖에 있으면 FN으로 개수를 셉니다. 그리고 $$F_\beta$$-score로 평가합니다. 
 
 
 # Workflow
