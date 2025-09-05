@@ -9,7 +9,7 @@ categories:
 tags:
 - project
 - team
-- Stck
+- Stock
 toc_label: Contents
 toc: true
 toc_sticky: True
