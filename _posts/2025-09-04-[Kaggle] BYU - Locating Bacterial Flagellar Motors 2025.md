@@ -99,7 +99,7 @@ def contrast_extension(self, data):
 
 ## 2. 모델선정
 
-일반적으로 decetion에서 사용하는 모델이 yolo임으로 저도 **yolo를 채택**했습니다./
+일반적으로 decetion에서 사용하는 모델이 yolo임으로 저도 **yolo를 채택**했습니다.\
 모델의 아키텍처를 개조하고 싶어 처음에는 구조가 간단한 **yolo8**를 사용하였고, 나중에는 **yolo11**도 사용해 성능을 확인했습니다. 
 
 ## 3. Overlay로 데이터 생성
